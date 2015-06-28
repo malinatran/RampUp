@@ -1,5 +1,6 @@
-numbers = [1,2,3,4,5,6,7,8,9,10]
 
-numbers.select do |number|
-	number.even?
-end 
+identity = { "first_name" => "Malina", "middle_name" => "Tea", "last_name" => "Tran"}
+
+hash.each do |x,y|
+	puts "My #{x} is #{y}"
+ends

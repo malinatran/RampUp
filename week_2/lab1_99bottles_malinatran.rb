@@ -1,3 +1,11 @@
+# def check_plural(x)
+# 	if x >= 2 
+# 		"bottles"
+# 	else
+# 		"bottle"
+# 	end
+# end
+
 number = 99
 
 while number >= 2
@@ -15,3 +23,4 @@ Now you have no more beers on the wall."
 	end
 
 end
+
