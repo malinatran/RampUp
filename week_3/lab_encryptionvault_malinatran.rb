@@ -35,7 +35,7 @@ while true
 	================================
 	"
 
-	choice = gets.chomp.to_i
+	choice = gets.chomp.to_i # could  be string
 
 	if choice == 1
 		puts "Please enter what you would like to encrypt:"
@@ -46,7 +46,7 @@ while true
 			else 
 				x
 			end 
-		}.join("") 
+		}.join("")
 		puts "You have successfully encrypted your code: #{encrypted_word}."
 
 	elsif choice == 2
