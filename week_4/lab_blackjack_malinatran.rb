@@ -84,9 +84,10 @@ class Game
     	end
 
     	# SECOND PART: If player's score is less than 21, enter loop
-    	while @game.player.total_points < 21
+        # wrap into method
+    	while @game.player.total_points < 21 # while player.bust?
     		puts "You have a hand of #{@game.player.hand} with a total of #{@game.player.total_points} points.
-The dealer's visible card is #{@game.dealer.hand.drop(1)}.
+The dealer's visible card is #{@game.dealer.hand.last}.
 Do you want to 1. HIT or 2. STAY?"
 
     		choice = gets.chomp.to_i
